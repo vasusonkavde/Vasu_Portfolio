@@ -1,0 +1,83 @@
+body {
+    overflow: hidden;
+}
+
+.overlay-image {
+    width: 300px;
+    position: relative;
+    right: 25px;
+    top: -365px;
+    /* Adjust the top value to center vertically */
+    z-index: 1;
+}
+
+.title {
+    display: inline;
+}
+
+.divider {
+    width: 350px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.main-section {
+    padding-top: 20px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.last-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -420px;
+    z-index: 1;
+    /* padding: 20px; Add padding for spacing */
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: auto;
+        padding: 50px;
+        position: relative;
+        bottom: 150px;
+    }
+
+    .icons i {
+        margin-bottom: 10px;
+    }
+
+    .rotate-text {
+        display: inline-block;
+        transform: rotate(-90deg);
+        transform-origin: left bottom;
+        /* Adjust the origin as needed */
+        white-space: nowrap;
+        /* Prevent text from wrapping */
+        padding: 10px;
+        position: relative;
+        left: 200px
+    }
+}
+
+.mid-container {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+.divider1 {
+    width: 100%;
+    max-width: 760px;
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
+.a-no-color {
+    color: black;
+}
